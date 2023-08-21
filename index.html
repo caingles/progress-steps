@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progress Steps</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="container">
+      <span class="circle circle-active">1</span>
+      <div class="bar"><span class="bar-intern" id="bar2"></span></div>
+      <span class="circle circle2">2</span>
+      <div class="bar"><span class="bar-intern" id="bar3"></span></div>
+      <span class="circle circle3">3</span>
+      <div class="bar"><span class="bar-intern" id="bar4"></span></div>
+      <span class="circle circle4">4</span>
+    </div>
+
+    <div class="container wrapper-button">
+      <button id="prev" class="disabled">Prev</button>
+      <button id="next" class="enabled">Next</button>
+    </div>
 
     <script src="js/app.js"></script>
   </body>
